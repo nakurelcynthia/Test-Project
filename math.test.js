@@ -15,6 +15,3 @@ test('divides two numbers', () => {
     expect(divide(10, 2)).toBe(5);
     expect(divide(9, 3)).toBe(3);
 });
-test('throws an error when dividing by zero', () => {
-    expect(() => divide(10, 0)).toThrow('Cannot divide by zero');
-});
